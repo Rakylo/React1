@@ -1,0 +1,18 @@
+.main {
+  text-align: center;
+  background-color: rgb(227, 216, 238);
+}
+.main > h2 {
+  font-size: 20px;
+}
+.main > p {
+  font-size: 10px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+
+  /* align-items: center; */
+}

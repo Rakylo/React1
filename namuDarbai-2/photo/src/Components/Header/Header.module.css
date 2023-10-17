@@ -1,0 +1,60 @@
+/* .header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.header > img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+} */
+.header {
+  position: relative;
+  width: 100%; /* Set the width and height of your image container */
+  height: 300px;
+}
+
+.header > img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover; /* This property ensures the image covers the container */
+}
+.header > h6 {
+  position: absolute;
+  top: 50%; /* Adjust the position as needed */
+  left: 50%; /* Adjust the position as needed */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the text horizontally and vertically */
+
+  color: #fff; /* Text color */
+  padding: 10px; /* Add padding to the text */
+  font-size: large;
+}
+
+.header > p {
+  position: absolute;
+  top: 73%; /* Adjust the position as needed */
+  left: 50%; /* Adjust the position as needed */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the text horizontally and vertically */
+
+  color: #fff; /* Text color */
+  padding: 10px; /* Add padding to the text */
+  font-size: small;
+}
+.header > button {
+  position: absolute;
+  top: 99%; /* Adjust the position as needed */
+  left: 50%; /* Adjust the position as needed */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the text horizontally and vertically */
+  background-color: gray;
+  padding: 8px;
+  border-radius: 8px;
+}
