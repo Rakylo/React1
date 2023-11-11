@@ -1,0 +1,1 @@
+    užduotis: pasidarykit react aplikaciją kurioje bus login puslapis (jei spėsit ir register). Sukurkite posts puslapį kurį galėsite pasiekti tik turėdami jwt tokeną. jis darys užklausą į backendą ir backendas grąžins postus (galite hardkodinti kokį array su posts arba jei turite laiko iš duombazės, bet tada reiks ir frontende formos kurti postam)

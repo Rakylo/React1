@@ -1,0 +1,18 @@
+.pagrindas {
+  display: flex;
+  flex-direction: column;
+}
+.username {
+  border: 1px solid green;
+}
+.invalidInput {
+  border: 1px solid red;
+}
+.errorMessage {
+  color: red;
+  font-size: 12px;
+}
+span {
+  text-decoration: underline;
+  color: blue;
+}
