@@ -1,37 +1,3 @@
-// import React from "react";
-// import Label from "../Label/Label";
-// import Button from "../Button/Button";
-// import Input from "../TextInput/TextInput";
-// import styles from "./ContactForm.module.css";
-
-// export default function ContactForm() {
-
-//   return (
-//     <div className={styles.pagrindas}>
-//       <Label for="name" text="Name:" />
-//       <Input type="text" name="name"  />
-//       <Label for="name" text="Username:" />
-//       <Input type="text" name="username" />
-//       <Label for="name" text="Email:" />
-//       <Input type="email" name="email" />
-//       <Label for="subject" text="Subject:" />
-//       <select id="dropdown">
-//         <option value="">-- Please select an option --</option>
-//         <option value="option1">Option 1</option>
-//         <option value="option2">Option 2</option>
-//         <option value="option3">Option 3</option>
-//       </select>
-//       <Label for="message" text="Message:" />
-//       <textarea id="message" name="message" rows="4" cols="50"></textarea>
-//       <input type="checkbox" />
-//       <label for="subscribe">I agree to the terms and conditions</label>
-//       <input type="checkbox" /> <p>Yes</p>
-//       <input type="checkbox" /> <p>No</p>
-//       <Button />
-//     </div>
-//   );
-// }
-
 import React, { useState } from "react";
 import Label from "../Label/Label";
 import Button from "../Button/Button";

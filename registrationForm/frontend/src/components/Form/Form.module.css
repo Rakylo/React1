@@ -1,0 +1,63 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 11px;
+}
+.form input {
+  margin-top: 20px;
+  width: 270px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+.button {
+  margin-top: 20px;
+  width: 280px;
+  height: 30px;
+  background-color: #f2877d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form > h2 {
+  padding-top: 20px;
+  margin-bottom: -14px;
+}
+.pirmasp {
+  margin-bottom: -4px;
+}
+.antrasp {
+  text-align: center;
+  font-size: large;
+  margin-bottom: -10px;
+}
+.signupas {
+  padding-top: -30px;
+  text-decoration: none;
+  color: #f2877d;
+}
+label {
+  margin-bottom: -14px;
+}
+.inputGroup {
+  position: relative;
+}
+.inputIcon {
+  position: absolute;
+  margin-top: 223px;
+  margin-left: 4px;
+}
+.inputIcon1 {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 4px;
+}
+.inputIcon2 {
+  position: absolute;
+  margin-top: 338px;
+  margin-left: 4px;
+}

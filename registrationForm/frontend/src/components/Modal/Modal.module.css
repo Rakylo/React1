@@ -1,0 +1,19 @@
+.modalas {
+  position: center;
+  margin: auto;
+  z-index: 100;
+  min-width: 600px;
+  min-height: 500px;
+  width: 600px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+  overflow: auto;
+  margin-top: 20px;
+
+  background: linear-gradient(to bottom left, #ff0066, #33ccff);
+  /* background: linear-gradient(to bottom left, #33ccff, #ff0066); */
+}
+.modalas:hover {
+  background: linear-gradient(to bottom left, #33ccff, #ff0066);
+}
